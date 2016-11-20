@@ -1,0 +1,38 @@
+Package: SomaDataIO
+Type: Package
+Title: SomaData Input/Output Package
+Version: 1.5.0
+Date: 2015-06-05
+Authors@R: 
+   c(person("Stu", "Field", email="sfield@somalogic.com", role=c("aut","cre")),
+     person("Michael", "Mehan", email="mmehan@somalogic.com", role="aut"))
+Description: This package loads the SomaSciences proprietary data file, the ADAT file.
+             It also provides auxiliary functions for extracting and manipulating relevant 
+				 information from an ADAT, as well as exporting a modified ADAT to file.
+License: GNU General Public License (>= 3)
+Depends: R (>= 2.14.0)
+Imports: digest
+Suggests: Biobase, reshape
+X-CRAN-COMMENT: ***Legal: This software is licensed only to you (the
+        ''Licensee'') as a customer of SomaLogic for use with data
+        provided by SomaLogic and for no other purpose. SomaLogic
+        licenses the licensed software ''as is'' and, by using this
+        software, Licensee accepts the terms of this limited license.
+        SomaLogic offers no warranties as to the function or use of the
+        licensed software, whether express, implied, or statutory,
+        including, without limitation, any implied warranties of
+        merchantability or fitness for a particular purpose. The entire
+        risk as to the quality and performance of the licensed software
+        is with licensee.  Licensor does not warrant that the functions
+        contained in the licensed software will meet licensee's
+        requirements or that the licensed software will be
+        error-free.***
+LazyLoad: yes
+LazyData: yes
+Copyright: SomaLogic, Inc. 2015
+URL: www.somalogic.com
+NeedsCompilation: no
+Packaged: 2015-06-05 19:28:13 UTC; sfield
+Author: Stu Field [aut, cre],
+  Michael Mehan [aut]
+Maintainer: Stu Field <sfield@somalogic.com>

@@ -1,0 +1,38 @@
+##########################################################################
+# This package (suite of programs) is free software; you can redistribute 
+# it and/or modify it under the terms of the GNU General Public License 
+# as published by the Free Software Foundation, either version 3 of the 
+# License, or (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# See <http://www.gnu.org/licenses/> for a copy of the 
+# GNU General # Public License.
+##########################################################################
+
+README for the R SomaDataIO package 
+
+This document accompanies the R package SomaDataIO, which loads the SomaSciences proprietary data file, the ADAT file. The package provides auxiliary functions for extracting relevant information from the adat object once in the R environment. Basic familiarity with the R environment, and with installation of contributed packages from the Comprehensive R Archive Network (CRAN), is assumed.
+
+To install SomaDataIO:
+
+1. Download the file SomaDataIO_<version>.tar.gz.
+
+2. Ensure that the following package dependencies are installed, from the R console:
+   install.package(c("digest","reshape"))
+
+3. Install SomaDataIO (from the R Console):
+   install.packages("SomaDataIO_<version>.tar.gz", repos=NULL, type="source")
+
+4. NOTE: The Biobase and reshape packages are *suggested* packages, each being required by only one function. Biobase must be installed separately from Bioconductor (from the R console):
+   source("http://bioconductor.org/biocLite.R")
+   biocLite("Biobase")
+
+Information about Bioconductor can be found here:
+   http://www.bioconductor.org/packages/release/bioc/html/Biobase.html
+
+5. Upon successful installation, type library(SomaDataIO) in the R Console to load the package, then type library(help=SomaDataIO) for an index of commands.
+
